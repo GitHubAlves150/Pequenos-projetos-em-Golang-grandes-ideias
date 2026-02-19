@@ -1,0 +1,3 @@
+module GENERIC_NIVEL_PLENO
+
+go 1.25.0
