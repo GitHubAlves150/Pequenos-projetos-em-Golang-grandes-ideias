@@ -30,7 +30,7 @@ package main
 	}
 	fmt.Println(":", pilha)
 
-	fmt.Println("-+====================================")
+	fmt.Println("-+===============Inserindo=====================")
 
 	pilhaStr := model.NewStack[string]()
 	pilhaStr.Push("Lucas")
@@ -43,6 +43,12 @@ package main
 
 
 	fmt.Println(":", pilhaStr)
+
+	fmt.Println("-+==============Removendo======================")
+	
+	pilha.Pop()
+	fmt.Println(":", pilha)
+
 	
  	fmt.Println("...Fim....")
 
