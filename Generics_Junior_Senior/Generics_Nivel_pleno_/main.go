@@ -45,9 +45,11 @@ package main
 	fmt.Println(":", pilhaStr)
 
 	fmt.Println("-+==============Removendo======================")
-	
+	fmt.Println("Tamanho da pilha", pilha.Size())
 	pilha.Pop()
 	fmt.Println(":", pilha)
+	
+	fmt.Println("tamanho da pilha", pilha.Size())
 
 	
  	fmt.Println("...Fim....")
